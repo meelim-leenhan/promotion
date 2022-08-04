@@ -1,0 +1,215 @@
+.event-newyear.event-wrap .event-top {
+  padding-bottom: 118.14%;
+}
+
+.event-newyear.event-wrap .event-top:after {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(33, 33, 33, 0)), to(rgba(33, 33, 33, 0.4)));
+  background: linear-gradient(180deg, rgba(33, 33, 33, 0) 60%, rgba(33, 33, 33, 0.4) 100%);
+}
+
+.event-newyear.event-wrap .event-top .event-top__text {
+  color: #fff;
+}
+
+.event-newyear.event-wrap .event-top .event-top__text .event-top__title {
+  color: #fff;
+}
+
+.event-newyear.event-wrap .event-top .event-top__text .event-top__info {
+  color: #fff;
+}
+
+.event-newyear.event-wrap .event-intro__list + .event-intro__list {
+  margin-top: 40px;
+}
+
+.event-newyear.event-wrap .event-notice--type2 {
+  margin-bottom: 50px;
+}
+
+.event-newyear.event-wrap .event-ctglist-img {
+  margin-bottom: 50px;
+}
+
+.event-newyear.event-wrap .event-cont--bg {
+  position: relative;
+  max-height: 527px;
+  padding: 0;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-cont__bg {
+  display: block;
+  position: relative;
+  padding-bottom: 140.53%;
+  z-index: -1;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-cont__bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-cont__inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 9.48%;
+  z-index: 1;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-cont__title strong,
+.event-newyear.event-wrap .event-cont--bg .event-cont__title span {
+  color: #fff;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-cont__title sub {
+  color: #bdbdbd;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-ctglist li {
+  border-top: 1px solid #fff;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-ctglist li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-ctglist li > a:after {
+  background: url("/images/renewal/promotion/event_arrow_white.png") no-repeat;
+  background-size: 26px 30px;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-coupon-dim {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 1px;
+  height: 100%;
+  z-index: 101;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-coupon button[disabled] {
+  opacity: 1;
+}
+
+.event-newyear.event-wrap .event-cont--bg .event-coupon button[disabled] .event-coupon-dim {
+  display: block;
+}
+
+.event-newyear.event-wrap .event-ctglist-title {
+  position: relative;
+  margin: 16px 16px 0;
+  padding-bottom: 49.56%;
+}
+
+.event-newyear.event-wrap .event-ctglist-title:first-of-type {
+  margin-top: 56px;
+}
+
+.event-newyear.event-wrap .event-ctglist-title img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.event-newyear.event-wrap .event-ctglist-title + .event-ctglist {
+  margin: 32px 20px 48px;
+}
+
+.event-newyear.event-wrap .event-ctglist-title + .event-ctglist li {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1540px) {
+  .event-newyear.event-wrap {
+    max-width: 1540px;
+  }
+  .event-newyear.event-wrap .event-top {
+    background: url("../img/event_top_newyear_web.png") no-repeat;
+    padding-bottom: 0;
+  }
+  .event-newyear.event-wrap .event-top:after {
+    display: none;
+  }
+  .event-newyear.event-wrap .event-top .event-top__text {
+    color: #000;
+  }
+  .event-newyear.event-wrap .event-top .event-top__text .event-top__title,
+  .event-newyear.event-wrap .event-top .event-top__text .event-top__info {
+    color: #000;
+  }
+  .event-newyear.event-wrap .event-cont--bg {
+    max-height: 765px;
+    width: 1540px;
+    height: 765px;
+  }
+  .event-newyear.event-wrap .event-cont--bg .event-cont__bg {
+    padding-bottom: 0;
+    z-index: -1;
+  }
+  .event-newyear.event-wrap .event-cont--bg .event-cont__bg img {
+    position: static;
+  }
+  .event-newyear.event-wrap .event-cont--bg .event-cont__inner {
+    top: 120px;
+  }
+  .event-newyear.event-wrap .event-cont--bg .event-cont__title span br {
+    display: none;
+  }
+  .event-newyear.event-wrap .event-cont--bg .event-cont__title sub {
+    margin-top: 2px;
+    color: #fff;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit {
+    display: inline-block;
+    width: 406px;
+    margin: 0 16px;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit .event-ctglist-title {
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    width: 406px;
+    height: 210px;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit .event-ctglist-title:first-of-type {
+    margin-top: 56px;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit .event-ctglist-title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit .event-ctglist-title + .event-ctglist {
+    margin: 72px 0 135px;
+  }
+  .event-newyear.event-wrap .event-ctglist__unit .event-ctglist-title + .event-ctglist li {
+    float: none;
+    margin: 0 0 10px;
+  }
+  .event-newyear.event-wrap .event-notice .event-notice__title {
+    margin-top: 15px;
+  }
+}
